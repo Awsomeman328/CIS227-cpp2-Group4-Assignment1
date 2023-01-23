@@ -1,0 +1,22 @@
+From Chris's code use the switch menu system and main() entry point, but integrate Jacob's Validatation code for the calculation inputs using while loops for each entry. 
+Also put a while loop around the whole menu and add a new menu option to exit the program.
+Lastly, in place of where you normally calculate the results for yourself, instead call the functions from the class that Jacob? will make from Mike's? code.
+
+From Jacob's code extract the float/double Validatation code into a seperate Class file.
+Chris use Jacob's while loops as inspiration on how to use the while loops in your code section
+Also Jacob needs to use the std namespace like both Chris and Mike does.
+
+From Mike's code take the various calculations code and keep them in their own class.
+If we do use Jacob's or Chris's calculations code, then we'd need to extract it into its own class like Mike did.
+The only thing about Mike's code is the function names leave a little to be desired in the descriptive naming department, but that's about it.
+
+The only other main thing I think we need to figure out is what data type are we going to use for out calculations, 
+sine we are going to need to line up all of our data types to match in order for the program to run properly.
+I do like Chris's system of only using 4 variables and reusing them when needed since that is as many variables that we would need at the same time, 
+but I am biased towards using the largest decimal numbers we can, long doubles, in order to allow the user the maximum amount of freedom for their calculations and to give our program some safety room for any possible overflows.
+
+SO! ... A total of three .cpp files and 2 .h files: 
+ - The mainProgram.cpp from Chris's code to make the UI
+ - The validateStringIsADouble.cpp and .h files from Jacob's code to make up the first half of the backend
+ - The calculations.cpp and .h files from Mike's code to make up the seconf half of the backend
+Plus the lead confirming that it all works, filling out the paper work, and turning in all of the files for the assignment
