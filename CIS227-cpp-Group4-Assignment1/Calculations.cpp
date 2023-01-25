@@ -7,7 +7,7 @@
 #include "Calculations.h"
 
 //function to calculate hypotenuse
-float hypot(float a, float b)
+double hypot(double a, double b)
 {
 	return sqrt((pow(a, 2) + pow(b, 2)));
 }

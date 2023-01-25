@@ -1,10 +1,10 @@
 ﻿  CIS227-cpp-Group4-Assignment1.cpp
-C:\Users\Awsoe\OneDrive\Documents\School\Winter 2023\C++2\Week2\_Final Group Turn In Files\CIS227-cpp-Group4-Assignment1\CIS227-cpp-Group4-Assignment1\Calculations.h(7,8): warning C4273: 'hypot': inconsistent dll linkage
+C:\Users\mdola\source\repos\Awsomeman328\CIS227-cpp2-Group4-Assignment1\CIS227-cpp-Group4-Assignment1\Calculations.h(13,8): warning C4273: 'hypot': inconsistent dll linkage
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_math.h(514,47): message : see previous definition of 'hypot'
   ValidateDoubleFromString.cpp
   Calculations.cpp
-C:\Users\Awsoe\OneDrive\Documents\School\Winter 2023\C++2\Week2\_Final Group Turn In Files\CIS227-cpp-Group4-Assignment1\CIS227-cpp-Group4-Assignment1\Calculations.h(7,8): warning C4273: 'hypot': inconsistent dll linkage
+C:\Users\mdola\source\repos\Awsomeman328\CIS227-cpp2-Group4-Assignment1\CIS227-cpp-Group4-Assignment1\Calculations.h(13,8): warning C4273: 'hypot': inconsistent dll linkage
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_math.h(514,47): message : see previous definition of 'hypot'
   Generating Code...
-     Creating library C:\Users\Awsoe\OneDrive\Documents\School\Winter 2023\C++2\Week2\_Final Group Turn In Files\CIS227-cpp-Group4-Assignment1\x64\Debug\CIS227-cpp-Group4-Assignment1.lib and object C:\Users\Awsoe\OneDrive\Documents\School\Winter 2023\C++2\Week2\_Final Group Turn In Files\CIS227-cpp-Group4-Assignment1\x64\Debug\CIS227-cpp-Group4-Assignment1.exp
-  CIS227-cpp-Group4-Assignment1.vcxproj -> C:\Users\Awsoe\OneDrive\Documents\School\Winter 2023\C++2\Week2\_Final Group Turn In Files\CIS227-cpp-Group4-Assignment1\x64\Debug\CIS227-cpp-Group4-Assignment1.exe
+     Creating library C:\Users\mdola\Source\Repos\Awsomeman328\CIS227-cpp2-Group4-Assignment1\x64\Debug\CIS227-cpp-Group4-Assignment1.lib and object C:\Users\mdola\Source\Repos\Awsomeman328\CIS227-cpp2-Group4-Assignment1\x64\Debug\CIS227-cpp-Group4-Assignment1.exp
+  CIS227-cpp-Group4-Assignment1.vcxproj -> C:\Users\mdola\Source\Repos\Awsomeman328\CIS227-cpp2-Group4-Assignment1\x64\Debug\CIS227-cpp-Group4-Assignment1.exe
