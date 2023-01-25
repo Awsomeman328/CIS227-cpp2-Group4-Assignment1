@@ -10,7 +10,7 @@
 using namespace std;
 
 //declare functions
-double hypot(double a, double b);
+float hypot(float a, float b);
 
 float area(float a, float b, float h);
 
