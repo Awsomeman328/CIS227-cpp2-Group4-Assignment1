@@ -12,7 +12,7 @@ using namespace std;
 //declare functions
 double hypot(double a, double b);
 
-float area(float a, float b, float h);
+double area(double a, double b, double h);
 
-float volume(float length, float width, float height);
+double volume(double length, double width, double height);
 

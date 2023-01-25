@@ -13,13 +13,13 @@ double hypot(double a, double b)
 }
 
 //function to calculate area of trapezoid
-float area(float a, float b, float h)
+double area(double a, double b, double h)
 {
 	return ((a + b) / 2 * h);
 }
 
 //function to calculate volume of rectangular prism
-float volume(float length, float width, float height)
+double volume(double length, double width, double height)
 {
 	return length * width * height;
 }
