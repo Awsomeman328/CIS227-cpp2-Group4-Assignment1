@@ -7,6 +7,7 @@
 #include <iostream>
 #include "ValidateDoubleFromString.h"
 #include "Calculations.h"
+#include <string>
 
 using namespace std;
 
@@ -16,14 +17,35 @@ int main()
 	float b;
 	float c;
 	float h;
-	int choice;
-
+	string choice;
+	bool validChoice;
+	bool isRunning = true;
+while (isRunning)
+{
 	cout << "Press 1 for the hypothenuse of a right triangle" << endl;
 	cout << "Press 2 for the area of a trapezoid" << endl;
 	cout << "Press 3 for the volume of a rectangular prism" << endl;
-	cin >> choice;
+	cout << "Press 4 to exit" << endl;
 
-	switch (choice) {
+	do
+	{
+		cin >> choice;
+
+		if (choice == "1" || choice == "2" || choice == "3" || choice == "4")
+		{
+			validChoice = true;
+		}
+		else
+		{
+			cout << "Invalid input, try again" << endl;
+			validChoice = false;
+		}
+
+	} while (!validChoice);
+
+
+
+	switch (stoi(choice)) {
 	case 1: {
 		//the hypotenuse of a triangle
 		cout << "To calculate the hypotenuse of a right triangle, enter the length of the two legs." << endl;
@@ -64,11 +86,17 @@ int main()
 		cout << "*************************************************" << endl;
 		break;
 	}
+	case 4: {
+		cout << "Goodbye";
+		isRunning = false;
+		break;
+	}
 	default: {
 		cout << "Invalid choice" << endl;
 		break;
 	}
 	}
+}
 }
 
 
